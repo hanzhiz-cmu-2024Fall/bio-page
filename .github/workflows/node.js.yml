@@ -27,3 +27,5 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
+    - name: Deploy on Cloud:
+    run: curl https://api.render.com/deploy/srv-crmttcij1k6c73b0ubvg?key=OEcsPjQt-84
